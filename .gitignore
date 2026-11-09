@@ -1,14 +1,26 @@
-# Python-generated files
+# Python
 __pycache__/
 *.py[oc]
 build/
 dist/
 wheels/
 *.egg-info
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Virtual environments
-.venv
+.venv/
+venv/
 
-# Training artifacts
-results/*.pt
-results/*.bin
+# Jupyter
+.ipynb_checkpoints/
+
+# Training checkpoints. Metrics and plots under drug-review/results/ stay tracked.
+*.pt
+*.bin
+*.ckpt
+
+# Previous course writeup kept locally
+project-report.docx
+project-slides.pdf
