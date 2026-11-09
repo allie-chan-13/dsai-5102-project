@@ -2,7 +2,7 @@
 name = "drug-review"
 version = "0.2.0"
 description = "Drug review sentiment: official-split extensions beyond the course notebook"
-readme = "README.md"
+readme = "../README.md"
 requires-python = ">=3.12"
 dependencies = [
     "ipykernel>=6.29",
